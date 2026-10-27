@@ -9,6 +9,7 @@ export const az = {
     cart: "Səbət",
     searchPlaceholder: "Məhsul və ya brend axtar",
     search: "Axtar",
+    notFound: "Tapılmadı",
   },
 
   hero: {

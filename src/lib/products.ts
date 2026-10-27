@@ -73,32 +73,45 @@ export const BRANDS = Array.from(new Set(PRODUCTS.map((p) => p.brand)))
   .map((name) => ({ name, slug: brandSlug(name) }));
 
 /**
- * Three price buckets with boundaries taken from the real prices (terciles of shown products).
- * Each bucket covers [min, max] of the actual prices that fall in it.
+ * Three price buckets. The cut points are the terciles of the real prices of shown products,
+ * rounded up to whole manats so the labels read like a shop filter ("15 ₼-dək", "15 – 18 ₼", ...).
+ * Buckets are half-open [min, max) and together cover every price, so no product falls between them.
  */
 export const PRICE_BUCKETS = (() => {
   const prices = PRODUCTS.map((p) => p.priceCents).sort((a, b) => a - b);
   if (prices.length === 0) return [];
-  const cut1 = prices[Math.floor(prices.length / 3)];
-  const cut2 = prices[Math.floor((prices.length * 2) / 3)];
-  const ranges: [number, number][] = [
-    [prices[0], cut1 - 1],
-    [cut1, cut2 - 1],
-    [cut2, prices[prices.length - 1]],
+  const toManat = (cents: number) => Math.ceil(cents / 100) * 100;
+  const cut1 = toManat(prices[Math.floor(prices.length / 3)]);
+  let cut2 = toManat(prices[Math.floor((prices.length * 2) / 3)]);
+  if (cut2 <= cut1) cut2 = cut1 + 100;
+  const buckets = [
+    { id: "1", min: 0, max: cut1, label: `${cut1 / 100} ₼-dək` },
+    { id: "2", min: cut1, max: cut2, label: `${cut1 / 100} – ${cut2 / 100} ₼` },
+    { id: "3", min: cut2, max: Infinity, label: `${cut2 / 100} ₼-dən yuxarı` },
   ];
-  return ranges.flatMap(([lo, hi], i) => {
-    const inBucket = prices.filter((c) => c >= lo && c <= hi);
-    if (inBucket.length === 0) return [];
-    return [
-      {
-        id: String(i + 1),
-        min: lo,
-        max: hi,
-        label: `${centsToString(inBucket[0])} – ${centsToString(inBucket[inBucket.length - 1])} ₼`,
-      },
-    ];
-  });
+  return buckets.filter((b) => prices.some((c) => c >= b.min && c < b.max));
 })();
+
+export function inPriceBucket(priceCents: number, bucket: { min: number; max: number }): boolean {
+  return priceCents >= bucket.min && priceCents < bucket.max;
+}
+
+/** Lowercase, accent-free form for search: "Gözlər" and "gozler" match. */
+export function searchKey(s: string): string {
+  return s
+    .toLocaleLowerCase("az")
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/ı/g, "i")
+    .replace(/ə/g, "e");
+}
+
+/** Products whose brand + name contain the query. */
+export function searchProducts(query: string): Product[] {
+  const needle = searchKey(query.trim());
+  if (!needle) return [];
+  return PRODUCTS.filter((p) => searchKey(`${p.brand} ${p.name}`).includes(needle));
+}
 
 const MONTHS = [
   "yanvar",

@@ -4,22 +4,22 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { az } from "@/i18n/az";
 import { ProductGrid } from "@/components/ProductCard";
-import { BRANDS, CATEGORIES, PRICE_BUCKETS, PRODUCTS, brandSlug, byDiscount } from "@/lib/products";
+import {
+  BRANDS,
+  CATEGORIES,
+  PRICE_BUCKETS,
+  PRODUCTS,
+  brandSlug,
+  byDiscount,
+  inPriceBucket,
+  searchKey,
+} from "@/lib/products";
 
 const SORTS = [
   { id: "discount", label: az.catalog.sortDiscount },
   { id: "asc", label: az.catalog.sortPriceAsc },
   { id: "desc", label: az.catalog.sortPriceDesc },
 ] as const;
-
-function normalize(s: string) {
-  return s
-    .toLocaleLowerCase("az")
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .replace(/ı/g, "i")
-    .replace(/ə/g, "e");
-}
 
 function Chip({ active, onClick, children }: { active: boolean; onClick: () => void; children: React.ReactNode }) {
   return (
@@ -70,13 +70,13 @@ export function CatalogView() {
   }, [query]);
 
   const results = useMemo(() => {
-    const needle = normalize(q.trim());
+    const needle = searchKey(q.trim());
     const bucket = PRICE_BUCKETS.find((b) => b.id === price);
     const list = PRODUCTS.filter((p) => {
       if (cat && CATEGORIES.find((c) => c.slug === cat)?.name !== p.category) return false;
       if (brand && brandSlug(p.brand) !== brand) return false;
-      if (bucket && (p.priceCents < bucket.min || p.priceCents > bucket.max)) return false;
-      if (needle && !normalize(`${p.brand} ${p.name}`).includes(needle)) return false;
+      if (bucket && !inPriceBucket(p.priceCents, bucket)) return false;
+      if (needle && !searchKey(`${p.brand} ${p.name}`).includes(needle)) return false;
       return true;
     });
     if (sort === "asc") return list.sort((a, b) => a.priceCents - b.priceCents);

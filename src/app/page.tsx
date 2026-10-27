@@ -30,14 +30,21 @@ function Sparkle({ className = "" }: { className?: string }) {
 }
 
 export default function HomePage() {
+  // No product appears on the home page twice: hero tags → top discounts (no gift sets) → gift sets → category tiles.
   const sorted = [...PRODUCTS].sort(byDiscount);
   const heroProducts = sorted.slice(0, 3);
-  const topDiscounts = sorted.slice(0, 8);
-  const gifts = PRODUCTS.filter((p) => p.category === GIFT_CATEGORY).sort(byDiscount);
-  const categoryTiles = CATEGORIES.map((c) => ({
-    ...c,
-    product: PRODUCTS.filter((p) => p.category === c.name).sort(byDiscount)[0],
-  }));
+  const used = new Set(heroProducts.map((p) => p.slug));
+  const topDiscounts = sorted.filter((p) => !used.has(p.slug) && p.category !== GIFT_CATEGORY).slice(0, 8);
+  topDiscounts.forEach((p) => used.add(p.slug));
+  const allGifts = sorted.filter((p) => p.category === GIFT_CATEGORY && !used.has(p.slug));
+  const gifts = allGifts.length >= 4 ? allGifts.slice(0, 4) : [];
+  gifts.forEach((p) => used.add(p.slug));
+  const categoryTiles = CATEGORIES.map((c) => {
+    const inCategory = sorted.filter((p) => p.category === c.name);
+    const product = inCategory.find((p) => !used.has(p.slug));
+    if (product) used.add(product.slug);
+    return { ...c, product };
+  });
 
   return (
     <>
@@ -84,12 +91,12 @@ export default function HomePage() {
         <ProductGrid products={topDiscounts} />
       </Container>
 
-      {gifts.length >= 4 && (
+      {gifts.length > 0 && (
         <Container className="mt-14">
           <section className="relative rounded-[28px] bg-powder p-4 md:p-8">
             <Sparkle className="absolute top-5 right-6 size-4" />
             <SectionTitle title={az.home.giftSets} href="/catalog?cat=hediyye-destleri" />
-            <ProductGrid products={gifts.slice(0, 4)} />
+            <ProductGrid products={gifts} />
           </section>
         </Container>
       )}
