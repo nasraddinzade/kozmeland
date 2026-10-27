@@ -1,0 +1,155 @@
+[
+  {
+    "slug": "cream-co-balm-cleanser",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-balm-cleanser-pembe-web_9df8e3b3-2809-4998-8876-0cfa47552d81.jpg?v=1791355225",
+    "pageUrl": "https://creamco.com.tr/products/balm-cleanser",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Balm Cleanser 100 ml; exact match."
+  },
+  {
+    "slug": "cream-co-peptide-glow-eye-cream",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-peptide-glow-eye-cream-pembe-WEB_af99ad8b-ab49-43f4-94d2-272c1ee4b543.jpg?v=1792740107",
+    "pageUrl": "https://creamco.com.tr/products/peptide-glow-eye-cream",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Peptide Glow Eye Cream 15 ml; exact match."
+  },
+  {
+    "slug": "cream-co-hyaluronic-acid-jelly-cleanser",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-glow-jelly-cleanser-pembe-web.jpg?v=1791355054",
+    "pageUrl": "https://creamco.com.tr/products/hyaluronic-acid-glow-jelly-cleanser-400ml",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Official name is 'Hyaluronic Acid Glow Jelly Cleanser - 400ML' (our name lacks 'Glow'); the only HA jelly cleanser in the range. 400 ml pump bottle shown (a 100 ml size also exists)."
+  },
+  {
+    "slug": "cream-co-hyaluronic-acid-peptide-serum",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-peptide-serum-pembe-web_2517d2a5-a3ca-4780-8305-aae47a52fab8.jpg?v=1791353215",
+    "pageUrl": "https://creamco.com.tr/products/hyaluronic-acid-peptide-serum",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Hyaluronic Acid & Peptide Serum 30 ml; exact match."
+  },
+  {
+    "slug": "cream-co-cloud-moisturizer",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/cloud-moisturizer-web-1_938728ad-6bde-47a4-9549-0af6dbc2ff68.jpg?v=1791354209",
+    "pageUrl": "https://creamco.com.tr/products/cloud-moisturizer",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Cloud Moisturizer 50 ml; exact match."
+  },
+  {
+    "slug": "cream-co-cream-cleanser",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-cream-cleanser-mavi-web_72b149b8-62aa-4f0d-a1ce-4d899faabaac.jpg?v=1791355257",
+    "pageUrl": "https://creamco.com.tr/products/cream-cleanser",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Cream Cleanser (blue tube); exact match."
+  },
+  {
+    "slug": "cream-co-cloud-milk-serum",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-cloud-milk-serum-mavi-web_739cc6be-acae-416e-b9c9-4b31a3ac499d.jpg?v=1791353255",
+    "pageUrl": "https://creamco.com.tr/products/cloud-milk-serum",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Cloud Milk Serum 30 ml; exact match."
+  },
+  {
+    "slug": "cream-co-tea-tree-balance-jelly-cleanser-400",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-balance-jelly-cleanser-yesil-400ml-web_d923c3f1-a980-4f57-b71c-cd1a01fdbead.jpg?v=1791355163",
+    "pageUrl": "https://creamco.com.tr/products/tea-tree-balance-jelly-cleanser-400-ml",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "400 ml size photo (green pump bottle, '400 ml' on label)."
+  },
+  {
+    "slug": "cream-co-tea-tree-balance-jelly-cleanser-100",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-balance-jelly-cleanser-yesil-100ml-web_323f5197-753b-44f2-accc-8a997854edab.jpg?v=1791355196",
+    "pageUrl": "https://creamco.com.tr/products/tea-tree-balance-jelly-cleanser-100-ml",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "100 ml size photo (green tube) - its own size, distinct from the 400 ml bottle."
+  },
+  {
+    "slug": "cream-co-heartleaf-balance-face-mist",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-balance-face-mist-yesil-web_9d82b991-0713-47bd-a510-ec978654c042.jpg?v=1791291685",
+    "pageUrl": "https://creamco.com.tr/products/heartleaf-balance-face-mist",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Heartleaf Balance Face Mist 50 ml; exact match."
+  },
+  {
+    "slug": "cream-co-peptide-glow-face-mist",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-glow-face-mist-web_629bceea-d2c2-494c-b35e-15428fd0189b.jpg?v=1791291621",
+    "pageUrl": "https://creamco.com.tr/products/peptide-glow-face-mist",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Peptide Glow Face Mist 50 ml; exact match."
+  },
+  {
+    "slug": "cream-co-niacinamide-toner",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-yesil-tonik-web.jpg?v=1791362045",
+    "pageUrl": "https://creamco.com.tr/products/bha-pha-niacinamide-toner",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Official name is 'BHA/PHA Niacinamide Toner' 200 ml (our name: 'Niacinamide Toner'); the only niacinamide toner in the range."
+  },
+  {
+    "slug": "cream-co-vitamin-c-daily-toner",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1_46.jpg?v=1768981480",
+    "pageUrl": "https://creamco.com.tr/products/aha-bha-vitamin-c-daily-toner",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Official name is 'AHA/BHA Vitamin C Daily Toner' 200 ml (our name: 'Vitamin C Daily Toner'). Photo has a small brand badge 'AKNE & LEKE KARSITI TONIK' at the bottom."
+  },
+  {
+    "slug": "cream-co-perfecting-aha-complex-serum",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/image_1950_5a4f5117-b3c9-4487-977e-b46cafe4b318.webp?v=1766346963",
+    "pageUrl": "https://creamco.com.tr/products/perfecting-aha-complex-serum",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Perfecting AHA Complex Serum 30 ml; exact match. Product page reachable by direct URL but not in the site's public product listing (possibly unlisted/discontinued)."
+  },
+  {
+    "slug": "cream-co-sos-serum",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-sos-serum-sari-web_04e1cfae-f2a1-406f-a22f-3034672ccf04.jpg?v=1791353311",
+    "pageUrl": "https://creamco.com.tr/products/sos-serum",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "SOS Serum 30 ml; exact match."
+  },
+  {
+    "slug": "cream-co-glow-tint",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/1-glow-tint-deep-red-web.jpg?v=1790001483",
+    "pageUrl": "https://creamco.com.tr/products/glow-tint-deep-red",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Shade shown: Deep Red (one of our 4 shades). Packshot with a lip-color smear behind it. Official site has separate pages per shade (Radiant Pink, Warm Peach, Rich Berry also exist)."
+  },
+  {
+    "slug": "cream-co-lip-oil-gloss",
+    "status": "ok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0781/6049/4837/files/IMG-8167.png?v=1779365566",
+    "pageUrl": "https://creamco.com.tr/products/lip-oil-gloss-passionfruit",
+    "sourceType": "brand",
+    "sourceName": "creamco.com.tr",
+    "note": "Shade shown: Passionfruit (one of our 2 shades; Raspberry page also exists). Passionfruit/Raspberry pages reachable by direct URL but not in the site's public product listing."
+  }
+]

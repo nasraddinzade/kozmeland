@@ -1,0 +1,155 @@
+[
+  {
+    "slug": "sheglam-sun-sculpt-liquid-contour",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/images3_pi/2024/09/02/b2/1725270385dfa8d3ab36ec0134fc05557432c26096.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Sun-Sculpt-Liquid-Contour-Hazelnut-Latte-8820716503205",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Shade shown: Hazelnut Latte (5.2 ml)."
+  },
+  {
+    "slug": "sheglam-color-bloom-liquid-blush",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/v4/j/pi/2026/07/09/17/1783584498024b362f27b72986df465d8c24e9320a.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Color-Bloom-Liquid-Blush-Hot-Topic-8580912054437",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Shade shown: Hot Topic (matte finish line)."
+  },
+  {
+    "slug": "sheglam-birthday-skin-primer",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/v4/j/pi/2025/11/03/4a/1762165390bec88204430e32a33e3acfef74df0d22.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Birthday-Skin-Primer-7345878794405",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Default variant (Pink) shown; site also lists a \"Pigment Perfector\" variant."
+  },
+  {
+    "slug": "sheglam-good-grip-hydrating-primer",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/v4/j/pi/2026/06/10/c0/17810796268c8545a0d74fac303e08a19c0399a288.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Good-Grip-Hydrating-Primer-8254238163109",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Original Good Grip Hydrating Primer, 45 ml (not the Blueberry+AHA or travel-size variants)."
+  },
+  {
+    "slug": "sheglam-pore-no-more-primer",
+    "status": "ok",
+    "imageUrl": "https://products.dm-static.com/images/f_jpg,q_auto,c_fit,h_1200,w_1200/v1789566288/assets/pas/images/7aca16a4-371c-4a4f-814b-f04a70acda78/sheglam-primer-pore-no-more",
+    "pageUrl": "https://www.dm.de/p/d/3099884/sheglam-primer-pore-no-more",
+    "sourceType": "retailer",
+    "sourceName": "dm.de",
+    "note": "Not listed on sheglam.com (global site); taken from dm.de (German drugstore chain) listing \"SHEGLAM Primer Pore No More, 30 g\" (tube packshot). Also sold at Kmart AU/NZ, Boots."
+  },
+  {
+    "slug": "sheglam-triple-threat-corrective-primer",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/images3_pi/2024/05/28/90/1716892867b0f76ca18f144058b643871acb2db250.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Triple-Threat-Correcting-Primer-8357419679909",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Official name is \"Triple Threat CORRECTING Primer\" (ours: \"Corrective\"); size 30 ml matches."
+  },
+  {
+    "slug": "sheglam-skinfinite-hydrating-foundation",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/v4/j/dps/PS202608282203/947af1e2eacd2543fac95249d82aa05d3ec133aab2eb636260c752712dc3c5cc.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Skinfinite-Hydrating-Foundation-Linen-8816507781285",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Shade shown: Linen (30 ml)."
+  },
+  {
+    "slug": "sheglam-complexion-pro-foundation",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/v4/j/pi/2026/04/10/4f/1775811077d564369ffdd583a1acbc618b8e5431fd.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Complexion%20Pro%20Long%20Lasting%20Breathable%20Matte%20Foundation-Linen-8816507289765",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Full official name: \"Complexion Pro Long Lasting Breathable Matte Foundation\". Shade shown: Linen."
+  },
+  {
+    "slug": "sheglam-lunar-glow-highlighter",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/v4/j/pi/2026/07/21/e0/1784616832c3c58403e8bb7e3278fb94aa4aa05b94.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Lunar-Glow-Highlighter-Tea-Cake-8612487069861",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Shade shown: Tea Cake (5 g)."
+  },
+  {
+    "slug": "sheglam-locked-in-setting-spray",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/images3_pi/2024/05/28/a3/171688378408d59d3bcf3bcf437da05a3f9e2543ea.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Lock%27d%20In%20Setting%20Spray-8245628960933",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Official spelling: \"Lock'd In Setting Spray\" (ours: \"Locked In\"). 55 ml."
+  },
+  {
+    "slug": "sheglam-matte-fresh-setting-spray",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/images3_pi/2024/05/28/88/1716883747cb1ec6de84a05c8e685680b7896bd472.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Matte-Fresh-Setting-Spray-8241773772965",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "55 ml."
+  },
+  {
+    "slug": "sheglam-press-refresh-setting-spray",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/v4/j/pi/2026/03/26/69/177450761545943e4ee0353a5a424daee8886096f8.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Press-Refresh-Setting-Spray-6965388116133",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "55 ml."
+  },
+  {
+    "slug": "sheglam-matte-blush-coral-vibes",
+    "status": "noImage",
+    "imageUrl": null,
+    "pageUrl": null,
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "No SHEGLAM blush with shade \"Coral Vibes\" found. Checked shade lists on sheglam.com: Lightweight Matte Blush (High & Dry, Let's Escape, Alice, Good Vibes, Scrolling, Seduction, Tangerine, Insta Flame), Color Bloom, Squeeze & Dot Matte Blush Paint (has \"111 Corally Yours\"), Blush Bomb, Dream Touch, Love Dive (has \"Coraldially Yours\"); web search also found nothing."
+  },
+  {
+    "slug": "sheglam-brow-faction-angled-brush-dip",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/v4/j/pi/2026/05/27/61/17798652798b6b162a2739f63b637d0f63d6fd99f8.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Brow-Fection-Angled-Brush-Dip-Latte-8819464929445",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Official name: \"Brow-Fection Angled Brush & Dip\" (ours: \"Brow Faction\"). Shade shown: Latte (1.2 ml). Single product (dip pot + angled brush), not a multi-item set."
+  },
+  {
+    "slug": "sheglam-crystal-jelly-glaze-stick",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/v4/j/pi/2026/02/24/d9/1771922297423299550f5e26a6dd6c2de7e7e09aa5.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Crystal-Jelly-Glaze-Stick-Starlit-Silver-10121760643795072",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Shade shown: Starlit Silver (3 g). Note: it is a multi-use glaze stick listed in lip and face categories."
+  },
+  {
+    "slug": "sheglam-sunkissed-body-highlighter",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/v4/j/dps/PS202608311261/0341a7ef0625697da7641c0ed717072425e4306f02bfce4bc59f59bf3e059093.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Sunkissed-Body-Highlighter-Eros-5491524993189",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Shade shown: Eros."
+  },
+  {
+    "slug": "sheglam-go-go-glow-highlighter-body-mist",
+    "status": "ok",
+    "imageUrl": "https://img.ltwebstatic.com/v4/j/dps/PS2026081910549/941950d5817b5558b5baa7f904463d13d3ddbe084e88b88fee77f14b6790b9ce.jpg",
+    "pageUrl": "https://www.sheglam.com/product/Go-Go-Glow-Highlighting-Body-Mist-Gold-8190249402533",
+    "sourceType": "brand",
+    "sourceName": "sheglam.com",
+    "note": "Official name: \"Go Go Glow HighlightING Body Mist\" (ours: \"Highlighter\"). Shade shown: Gold."
+  }
+]
