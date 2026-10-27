@@ -99,6 +99,7 @@ export const az = {
   success: {
     title: "Sifariş qəbul olundu",
     orderNumber: "Sifariş nömrəsi",
+    howYouGet: "Necə alırsan",
     demoNote: "Bu demo versiyadır, sifariş mağazaya göndərilmir və pul çıxılmır.",
     back: "Ana səhifəyə qayıt",
   },

@@ -7,10 +7,9 @@ import { az } from "@/i18n/az";
 import { Container } from "@/components/Container";
 import { WhatsAppIcon } from "@/components/StoreInfo";
 import { useCart } from "@/lib/cart";
+import { saveOrder, type Method } from "@/lib/order";
 import { centsToString } from "@/lib/products";
 import { cartWhatsappText, whatsappUrl } from "@/lib/whatsapp";
-
-type Method = "delivery" | "pickup";
 
 const inputCls =
   "mt-1 w-full h-11 rounded-xl border border-line bg-white px-3 outline-none focus:border-fuchsia aria-[invalid=true]:border-fuchsia";
@@ -41,6 +40,8 @@ export default function CheckoutPage() {
     // Demo payment: no money is charged. The real payment gateway will be epoint (epoint.az).
     await new Promise((r) => setTimeout(r, 1500));
     const orderNo = `KZ-${Date.now().toString().slice(-6)}`;
+    const address = method === "delivery" ? String(data.get("address") ?? "").trim() : null;
+    saveOrder(orderNo, items, totalCents, method, address);
     clear();
     router.push(`/checkout/success?order=${orderNo}`);
   }

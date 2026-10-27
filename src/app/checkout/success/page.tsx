@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { az } from "@/i18n/az";
 import { Container } from "@/components/Container";
+import { OrderDetails } from "@/components/OrderDetails";
 
 export const metadata: Metadata = { title: az.success.title };
 
@@ -21,6 +22,7 @@ export default async function SuccessPage({ searchParams }: Props) {
           <span className="font-display text-3xl tracking-wide">{orderNo}</span>
         </div>
       )}
+      {orderNo && <OrderDetails orderNo={orderNo} />}
       <p className="mt-6 text-sm text-muted">{az.success.demoNote}</p>
       <Link
         href="/"
